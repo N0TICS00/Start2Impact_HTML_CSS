@@ -1,13 +1,42 @@
 @use 'variabili';
+/* UNIVERSAL SELECTOR*/
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   
 }
+/* TYPE SELECTOR*/
+h1{
+    text-align: center;
+}
+/* ID SELECTOR*/
+#presentation{
+    text-align: center;
+    padding: 25px;
+    padding-top: 50px;
+    background-image: linear-gradient(to right, variabili.$primary-color , variabili.$secondary-color);
 
-@media only screen and (max-width: 400px) {//MOBILE
+}
+#deepening{
+    padding: 25px
+}
+/*CLASS SELECTOR*/
+.img-pd{
+    width: 350px;
+    border-radius: 2%;
 
+} 
+
+.bg-navbar{
+    background-image: linear-gradient(to right, variabili.$primary-color , variabili.$secondary-color);
+    box-shadow:1200px
+}
+
+/* MEDIA QUERIES*/
+@media only screen and (min-width: 1px) and(max-width: 400px) {//MOBILE
+    
+    
 }
 @media only screen and (min-width: 401px) and (max-width: 960px){ //TABLET
 
@@ -16,9 +45,11 @@
   .navbar-item:hover{
 
         @include variabili.animazione-nav
-      
+
       
   }
+
+  
   .navbar-container{
       padding: 4.5% 10.5%
   }
