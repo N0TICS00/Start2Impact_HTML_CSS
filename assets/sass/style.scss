@@ -42,6 +42,13 @@ p{
 #formation{
     padding: 25px
 }
+#footer{
+
+  
+    height:200px;
+    background-image: variabili.$gradient;
+    margin-top: 100px
+}
 /*CLASS SELECTOR*/
 .img-pd , .img{
     width: 350px;
@@ -94,7 +101,7 @@ p{
     height: 400px;
     background-image: variabili.$gradient;
     border-radius: 2%;
-    box-shadow: 0 0 1px ;
+    box-shadow: 0 3px 14px 2px rgb(132 141 155 / 10%), 0 8px 10px 1px rgb(120 144 156 / 14%), 0 5px 5px -3px rgb(120 144 156 / 50%);
     margin-top: 40px;
     
     .pass-body{
@@ -118,6 +125,17 @@ p{
     justify-content: center;
 
 }
+.icon-footer{  
+  color:whitesmoke;
+  
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+    top:40%
+    
+}
 /* PSEUDO CLASSES*/
 ::-webkit-scrollbar {
     width: 4px;
@@ -133,16 +151,16 @@ p{
   }
   
 /* MEDIA QUERIES*/
-@media only screen and (min-width: 1px) and(max-width: 400px) {//MOBILE
-  
-}
+
 @media only screen and (min-width: 401px) and (max-width: 960px){ //TABLET
 
 }
 @media only screen and (min-width:961px){ //PC
-    .card{
-        float:left;
-        width: 31%
+    .pass-group{
+        display:flex;
+        flex-flow: row wrap ;
+        justify-content: space-around;
+
     }
     .experience{
 
