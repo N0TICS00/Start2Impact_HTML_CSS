@@ -34,6 +34,7 @@ p {
 
 #deepening {
   padding: 25px;
+  text-align: center;
 }
 
 #skills {
@@ -46,9 +47,13 @@ p {
 }
 
 /*CLASS SELECTOR*/
-.img-pd {
+.img-pd, .img {
   width: 350px;
   border-radius: 2%;
+}
+
+.img {
+  opacity: 0.75;
 }
 
 .bg-navbar {
@@ -82,12 +87,6 @@ p {
   color: #0061A8;
 }
 
-.img-projects {
-  width: 300px;
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
-}
-
 .link {
   color: aquamarine !important;
 }
@@ -98,7 +97,25 @@ p {
   height: 400px;
   background-image: linear-gradient(to right, #8AB6D6, #0061A8);
   border-radius: 2%;
-  box-shadow: 0 4px 6px 0;
+  box-shadow: 0 0 1px;
+  margin-top: 40px;
+}
+.pass .pass-body {
+  text-align: center;
+  padding: 10px;
+}
+.pass .pass-body .btn {
+  background-image: linear-gradient(to left, #8AB6D6, #0061A8);
+}
+.pass .img-projects {
+  width: 300px;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
+.animation-text {
+  display: flex;
+  justify-content: center;
 }
 
 /* PSEUDO CLASSES*/

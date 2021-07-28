@@ -22,7 +22,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+  <!--ANIMATE CSS-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <!--HOVER CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
 </head>
 <body>
 
@@ -45,13 +51,15 @@
       </nav>
       <!--PRESENTATION-->
       <article id="presentation">
-        <h1>Hi👋I'm Paolo a</h1>
-        <h3 class="animation-text"></h3>
-        <img src="assets/img/paolodagostino-s-image.png" alt="Paolo D'Agostino's image" class="img-pd">
-    </article>
+       
+        <h1><em>Debugging is like being the detective in a mystery movie where you are also the killer</em></h1>
+        <img src="assets/img/icon-presentation.svg" alt="Icon" class="img animate__animated animate__slideInUp">
+    </article> 
     <article id="deepening">
-        <h1>Who I am</h1>
-  
+      <h1 class="presentation">Hi✌️I'm Paolo </h1>
+      <h1 class="animation-text"></h1>
+      <img src="assets/img/paolodagostino-s-image.png" alt="Paolo D'Agostino's image" class="img-pd animate__animated animate__slideInUp">
+      
         <h2>I'm a thirteen year old italian boy who likes coding. I love reading manga and playing baseball in my city team.</h2>
         <h2>I have been coding for 2 years and my first language was Python. Only a few months ago I approached web development</h3>
     </article>
@@ -150,22 +158,57 @@
       <h1>Formation</h1>
        <div class="experience">
          <div class="year"><h3>2019-Present</h3></div>
-         <i class="fas fa-school fa-2x icon"></i> <div class="place"><h3>Middle School</h3></div>
+         <i class="fas fa-school fa-2x icon hvr-float"></i> <div class="place"><h3>Middle School</h3></div>
        </div> 
        <div class="experience">
         <div class="year"><h3>2021-Present</h3></div>
-        <i class="fas fa-rocket fa-2x icon"></i><div class="place"><h3>Start2Impact - Web Development</h3></div>
+        <i class="fas fa-rocket fa-2x icon hvr-float" ></i><div class="place"><h3>Start2Impact - Web Development</h3></div>
       </div>
  
     </article>    
     <article id="projects">
       <h1>Projects</h1>
-        <div class="pass-group">
-          <div class="pass">
+        <div class="pass-group ">
+          <div class="pass ">
             <div class="pass-head">
               <img src="assets/img/bot-website.png" alt="Bot's Website" class="img-projects">
             </div>
-            <div class="pass-body"></div>
+            
+            <div class="pass-body ">
+              <p>This is a site created for the discord bot built by me in Python. 
+                
+
+              </p>
+              <p><a href="https://n0tics00.github.io/bot-website/" class="hvr-grow"><button class="btn " >Live Demo</button></a>  <a href="https://github.com/N0TICS00/bot-website" class="hvr-grow"><button class="btn ">Repository</button></a></p>
+            </div>
+          </div>
+          <div class="pass">
+            <div class="pass-head">
+              <img src="assets/img/drumkit-website.png" alt="Drum Kit's website" class="img-projects">
+
+            </div>
+            <div class="pass-body">
+              <p>This is a site that allows you to play drums.</p>
+              <p><a href="https://n0tics00.github.io/drumkit/" class="hvr-grow"><button class="btn" >Live Demo</button></a>  <a href="https://github.com/N0TICS00/drumkit" class="hvr-grow"><button class="btn ">Repository</button></a></p>
+            </div>
+          </div>
+          <div class="pass">
+            <div class="pass-head">
+              <img src="assets/img/signup-website.png" alt="Sign Up's website" class="img-projects">
+            </div>
+            <div class="pass-body">
+              <p>This is a site with a Sign Up form for a News Letter</p>
+              <p><a href="https://frozen-peak-98396.herokuapp.com" class="hvr-grow"><button class="btn">Live Demo</button></a></p>
+            </div>
+          </div>
+          <div class="pass">
+            <div class="pass-head">
+              <img src="assets/img/dice-website.png" alt="Dice Game's Website" class="img-projects">
+            </div>
+            <div class="pass-body">
+              <p>This is a site that allows you to roll the dice</p>
+              <p><a href="https://n0tics00.github.io/diceGame/" class="hvr-grow"><button class="btn">Live Demo</button></a> <a href="https://github.com/N0TICS00/diceGame" class="hvr-grow "><button class="btn">Repository</button></a></p>
+            </div>
           </div>
         </div>
     </article>
