@@ -46,6 +46,10 @@ p {
   padding: 25px;
 }
 
+#projects {
+  text-align: center;
+}
+
 #footer {
   height: 200px;
   background-image: linear-gradient(to right, #8AB6D6, #0061A8);
