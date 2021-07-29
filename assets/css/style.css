@@ -40,6 +40,7 @@ p {
 #skills {
   text-align: center;
   padding: 25px;
+  background-color: #fcfcfc;
 }
 
 #formation {
@@ -48,6 +49,7 @@ p {
 
 #projects {
   text-align: center;
+  background-color: #fcfcfc;
 }
 
 #footer {
@@ -56,10 +58,22 @@ p {
   margin-top: 100px;
 }
 
+#copy {
+  height: 50 px;
+  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  text-align: center;
+}
+#copy p {
+  display: inline;
+}
+
 /*CLASS SELECTOR*/
 .img-pd, .img {
   width: 350px;
-  border-radius: 2%;
+}
+
+.img-pd {
+  margin-bottom: 20px;
 }
 
 .img {
@@ -73,7 +87,7 @@ p {
 .progress {
   width: 50%;
   margin: 0 auto;
-  height: 7px !important;
+  height: 14px !important;
   border-radius: 5px !important;
 }
 
@@ -97,17 +111,11 @@ p {
   color: #0061A8;
 }
 
-.link {
-  color: aquamarine !important;
-}
-
 .pass {
   margin: 0 auto;
   width: 300px;
   height: 400px;
   background-image: linear-gradient(to right, #8AB6D6, #0061A8);
-  border-radius: 2%;
-  box-shadow: 0 3px 14px 2px rgba(132, 141, 155, 0.1), 0 8px 10px 1px rgba(120, 144, 156, 0.14), 0 5px 5px -3px rgba(120, 144, 156, 0.5);
   margin-top: 40px;
 }
 .pass .pass-body {
@@ -119,8 +127,6 @@ p {
 }
 .pass .img-projects {
   width: 300px;
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
 }
 
 .animation-text {
@@ -141,7 +147,7 @@ p {
 
 /* PSEUDO CLASSES*/
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 5px;
   border-radius: 0.25rem;
 }
 

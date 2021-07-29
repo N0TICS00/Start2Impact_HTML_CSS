@@ -37,13 +37,16 @@ p{
 }
 #skills{
     text-align: center;
-    padding: 25px
+    padding: 25px;
+    background-color: variabili.$bg-color
 }
 #formation{
-    padding: 25px
+    padding: 25px;
+
 }
 #projects{
     text-align: center;
+    background-color: variabili.$bg-color
 }
 #footer{
 
@@ -52,15 +55,28 @@ p{
     background-image: variabili.$gradient;
     margin-top: 100px
 }
+#copy{
+    height: 50  px;
+    background-image: variabili.$gradient;
+    text-align: center;
+    p{
+        display:inline
+    }
+}
+
 /*CLASS SELECTOR*/
 .img-pd , .img{
     width: 350px;
-    border-radius: 2%;
+
+    
     
 } 
+.img-pd{
+    margin-bottom: 20px;
+}
 .img{
-    
     opacity: 0.75;
+    
 }
 
 .bg-navbar{
@@ -70,8 +86,9 @@ p{
 .progress{
     width: 50%;
     margin:0 auto;
-    height:7px !important;
-    border-radius: 5px !important
+    height:14px !important;
+    border-radius: 5px !important;
+    
 
 
 }
@@ -80,6 +97,7 @@ p{
     justify-content:flex-end;
     background-image: variabili.$gradient !important;
     border-radius: 5px;
+    
 }
 .h2-skills{
     text-align: center;
@@ -94,18 +112,14 @@ p{
 
 
 
-.link{
-    
-        color:aquamarine !important
-     }
+
 .pass{
     
     margin: 0 auto;
     width: 300px;
     height: 400px;
     background-image: variabili.$gradient;
-    border-radius: 2%;
-    box-shadow: 0 3px 14px 2px rgb(132 141 155 / 10%), 0 8px 10px 1px rgb(120 144 156 / 14%), 0 5px 5px -3px rgb(120 144 156 / 50%);
+
     margin-top: 40px;
     
     .pass-body{
@@ -118,8 +132,7 @@ p{
 
     .img-projects{
         width:300px;
-        border-top-left-radius: 2%;
-        border-top-right-radius:2%;
+  
         
     }
 }
@@ -140,13 +153,14 @@ p{
     top:40%
     
 }
+
 /* PSEUDO CLASSES*/
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
     border-radius: 0.25rem
   }
   ::-webkit-scrollbar-track {
-    background-image: variabili.$gradient
+    background-image: variabili.$gradient;
   }
   ::-webkit-scrollbar-thumb {
     background: whitesmoke;
