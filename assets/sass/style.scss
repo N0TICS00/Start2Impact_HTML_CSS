@@ -91,16 +91,21 @@ p{
         height: 400px;
         background-image: variabili.$gradient;
         margin-top: 40px; 
+
+        
         .img-projects{
             width:300px;
         }
         .pass-body{
-            padding: 10px;
+            padding:10px;
             .btn{
                 background-image:variabili.$gradient-inverse;
+
             }
+            
         }
     }
+ 
 }
 //FOOTER SECTION
 #footer{
