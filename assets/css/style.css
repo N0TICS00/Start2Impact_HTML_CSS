@@ -66,6 +66,7 @@ p {
 #formation {
   padding: 25px;
   height: 300px;
+  margin: 40px;
 }
 #formation .experience {
   text-align: center;
@@ -95,6 +96,33 @@ p {
 }
 #projects .pass .pass-body .btn {
   background-image: linear-gradient(to left, #4facfe, #00f2fe);
+  font-weight: 700;
+  color: black;
+}
+
+#form {
+  padding: 50px;
+  text-align: center;
+}
+#form .form {
+  display: flex;
+  flex-direction: column;
+}
+#form .form input {
+  width: 300px;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#form .form textarea {
+  height: 200px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  resize: both;
+}
+#form .form .btn {
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
 }
 
 #footer {

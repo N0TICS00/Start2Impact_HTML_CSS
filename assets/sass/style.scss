@@ -73,6 +73,7 @@ p{
 #formation{
     padding: 25px;
     height: 300px;
+    margin: 40px;
     .experience{
         text-align: center;
         margin: 40px 0;
@@ -100,14 +101,42 @@ p{
         .pass-body{
          
             margin:10px;
+
             .btn{
                 background-image:variabili.$gradient-inverse;
-
+                font-weight: 700;
+                color:black
             }
             
         }
     }
  
+}
+//FORM SECTION
+#form{
+    padding:50px;
+    text-align: center;
+    .form{
+    
+       display: flex;
+       flex-direction: column;
+        input{
+            width: 300px;
+            border-bottom: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius:0 ;
+        }
+        textarea{
+            height:200px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            resize: both;
+        }
+        .btn{
+            margin-top:20px;
+            background-image: variabili.$gradient;
+        }
+    }
 }
 //FOOTER SECTION
 #footer{
@@ -169,4 +198,5 @@ p{
   .navbar-container{
       padding: 4.5% 10.5%
   }
+
 }
