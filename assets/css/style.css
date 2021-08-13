@@ -24,7 +24,7 @@ p {
   text-align: center;
   padding: 25px;
   padding-top: 50px;
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
 }
 #initial .img {
   opacity: 0.75;
@@ -56,7 +56,7 @@ p {
 #skills .progress .progress-bar {
   display: flex;
   justify-content: flex-end;
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8) !important;
+  background-image: linear-gradient(to right, #4facfe, #00f2fe) !important;
   border-radius: 5px;
 }
 #skills .h1-skills {
@@ -72,7 +72,7 @@ p {
   margin: 40px 0;
 }
 #formation .experience .icon {
-  color: #0061A8;
+  color: #00f2fe;
 }
 
 #projects {
@@ -84,22 +84,22 @@ p {
   margin: 0 auto;
   width: 300px;
   height: 400px;
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
   margin-top: 40px;
 }
 #projects .pass .img-projects {
   width: 300px;
 }
 #projects .pass .pass-body {
-  padding: 10px;
+  margin: 10px;
 }
 #projects .pass .pass-body .btn {
-  background-image: linear-gradient(to left, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to left, #4facfe, #00f2fe);
 }
 
 #footer {
   height: 200px;
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
   margin-top: 100px;
 }
 #footer .icons {
@@ -114,7 +114,7 @@ p {
 
 #copy {
   height: 50px;
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
   text-align: center;
 }
 #copy p {
@@ -127,7 +127,7 @@ p {
 }
 
 .bg-navbar {
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
 }
 
 ::-webkit-scrollbar {
@@ -136,7 +136,7 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-  background-image: linear-gradient(to right, #8AB6D6, #0061A8);
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
 }
 
 ::-webkit-scrollbar-thumb {
