@@ -18,6 +18,7 @@ function textAnimation(){
         counter=0
     }
 }
+//TOGGLE FIXED-TOP CLASS
 
 
 

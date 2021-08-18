@@ -29,6 +29,9 @@ p {
 #initial .img {
   opacity: 0.75;
 }
+#initial h1 {
+  margin: 30px;
+}
 
 #deepening {
   padding: 25px;
