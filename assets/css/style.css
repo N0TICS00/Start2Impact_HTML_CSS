@@ -50,6 +50,9 @@ p {
   padding: 25px;
   background-color: #fafafa;
 }
+#skills h1 {
+  margin: 60px;
+}
 #skills .progress {
   width: 50%;
   margin: 0 auto;
@@ -83,6 +86,9 @@ p {
   text-align: center;
   background-color: #fafafa;
   padding: 40px;
+}
+#projects h1 {
+  margin: 60px;
 }
 #projects .pass {
   margin: 0 auto;

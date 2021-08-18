@@ -2,7 +2,7 @@
 
 
 //TEXT ANIMATION
-let words = ["Programmer" , "Baseballer" , "Reader" , "Digital Passionate" , "Video Gamer"]
+let words = ["Programmatore" , "Baseballer" , "Lettore" , "Appassionato Digitale" , "Video Gamer"]
 
 
 
